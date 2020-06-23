@@ -1,0 +1,36 @@
+html{
+    scrsoll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+* {margin:0; padding:0}
+
+section {
+    background: lightcyan;
+    position: relative;
+    height: 320px;
+    padding: 20px 0 0 20px;
+}
+section:hover div {
+    left: 90%;
+}
+div:first-of-type {
+    position: absolute;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background: red;
+    transition: left 4s;
+}
+div:last-of-type {
+    top: 170px;
+    left: 0;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: green;
+    transition: left 3s;
+    transition-delay: 1s;
+}
