@@ -14,7 +14,7 @@ section {
     padding: 20px 0 0 20px;
 }
 section:hover div {
-    left: 90%;
+    left: calc(100% - 150px);
 }
 div:first-of-type {
     position: absolute;
@@ -22,7 +22,7 @@ div:first-of-type {
     width: 150px;
     height: 150px;
     background: red;
-    transition: left 4s;
+    transition: left 2s;
 }
 div:last-of-type {
     top: 170px;
@@ -31,6 +31,6 @@ div:last-of-type {
     width: 150px;
     height: 150px;
     background: green;
-    transition: left 3s;
+    transition: left 1s;
     transition-delay: 1s;
 }
